@@ -1,0 +1,43 @@
+<%- include('./components/head') %>
+  <%- include('./components/header') %>
+
+<main>
+    <div class="mid-sign">
+        <img src="/images/login.svg" alt="login-img">
+        <div class="forms">
+        <form action="/signing-up" method="POST" class="signup-form">
+        <h1>CRIAR CONTA</h1>
+
+        <div class="form-box">
+            <i class="bx bx-user"></i>
+            <input name="username" type="name" placeholder="usuário"/>
+          </div>
+
+          <div class="form-box">
+            <i class="bx bx-at"></i>
+            <input type="email" name="email" placeholder="email"/>
+          </div>
+
+          <div class="form-box">
+            <i class="bx bx-lock-alt"></i>
+            <input type="password" name="password" placeholder="senha"/>
+          </div>
+
+          <div class="form-box">
+            <i class="bx bx-lock"></i>
+            <input type="password" name="password" placeholder="confirme sua senha"/>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Concorda em compartilhar seus dados?</label>
+          </div>
+          <div>
+              <button class="btn btn-signup" type="submit">cadastrar</button>
+          </div>
+        </form>
+    </div>
+    </div>
+    </div>
+</main>
+
+<%- include('./components/footer') %>

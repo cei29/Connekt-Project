@@ -1,0 +1,29 @@
+<%- include('./components/head') %>
+  <%- include('./components/header') %>
+
+  <main>
+    <div class="mid-sign">
+        <img src="/images/login.svg" alt="login-img">
+        <div class="forms">
+        <form action="/authenticating" method="POST" class="signin-form">
+        <h1>ENTRAR</h1>
+
+          <div class="form-box">
+            <i class="bx bx-at"></i>
+            <input type="email" name="email" placeholder="email"/>
+          </div>
+
+          <div class="form-box">
+            <i class="bx bx-lock-alt"></i>
+            <input type="password" name="password" placeholder="senha"/>
+          </div>
+          <div>
+              <button class="btn btn-signin" type="submit">entrar</button>
+          </div>
+        </form>
+    </div>
+    </div>
+    </div>
+</main>
+
+<%- include('./components/footer') %>
