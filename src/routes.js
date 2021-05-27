@@ -11,10 +11,13 @@ router.get('/sign-up', GetController.signUp)
 /* GET Sign-In */
 router.get('/sign-in', GetController.signIn)
 
-/* GET Feed */
+/* GET Main */
 router.get('/main', GetController.main)
 
+/* GET Course */
+router.get('/course', GetController.course)
+
 /* GET My Profile */
-router.get('/cei29', GetController.myProfile)
+router.get('/user', GetController.user)
 
 module.exports = router;

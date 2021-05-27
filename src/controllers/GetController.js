@@ -11,7 +11,10 @@ module.exports = {
     main(req, res) {
         res.render('main')
     },
-    myProfile(req, res) {
-        res.render('cei29')
+    course(req, res) {
+        res.render('course')
+    },
+    user(req, res) {
+        res.render('user')
     }
 }

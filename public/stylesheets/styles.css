@@ -9,6 +9,10 @@
   --color-light-gray: #f2f2f2;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins';
 }
@@ -177,6 +181,10 @@ nav {
   padding-top: 3px;
 }
 
+.bx-search:hover {
+  color: var(--color-darker-blue);
+}
+
 input {
   border-radius: 28px;
   padding-left: 20px;
@@ -186,6 +194,10 @@ input {
 .bxs-bell {
   margin-left: -68px;
   margin-top: 6px;
+}
+
+.bxs-bell:hover {
+  color: var(--color-darker-blue);
 }
 
 #bell::after {
@@ -265,7 +277,7 @@ margin-top: 87px;
 }
 
 .signup-form {
-  margin-left: 731px;
+  margin-left: 696px;
   margin-top: 105px;
   padding-top: 39px;
 }
@@ -293,7 +305,7 @@ margin-top: 87px;
     background-color: #fff;
     margin-top: 2rem;
     border-radius: 0.5rem;
-    width: 467px;
+    width: 513px;
 }
 
 .btn-signup {
@@ -315,7 +327,7 @@ margin-top: 87px;
 .form-group,
 .form-check {
   margin-top: 10px;
-    margin-left: 117px;
+    margin-left: 149px;
 }
 
 /* Sign in */
@@ -340,5 +352,130 @@ margin-top: 87px;
 
 /* Feed */
 .mid-main {
+  background-color: var(--color-light-gray);
+  width: 1154px;
+  border-radius: 28px;
+  border-style: solid;
+  border-width: 7px;
+  border-color: lightblue;
+  padding: 42px;
+  box-shadow: 5px 5px 5px 5px lightgrey;
+}
 
+.card-title {
+  color: var(--color-darkest-blue);
+  font-weight: 900;
+}
+
+.card {
+  border-radius: 28px;
+  box-shadow: 5px 5px 5px 5px lightgrey;
+  border-style: solid;
+  border-width: 3px;
+  border-color: lightblue;
+}
+
+.card-hover {
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card-link {
+  float: right;
+  color: var(--color-gray);
+  font-weight: bold;
+}
+
+.card-link img {
+  margin-top: -8px;
+}
+
+/* Couse */
+.mid-course {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: absolute;
+  width: 100%;
+  height: 92.8%;
+}
+
+.course-title {
+  display: flex;
+  font-weight: 900;
+  margin-top: 62px;
+  font-size: 113px;
+  color: var(--color-darkest-blue);
+  margin-left: 121px;
+}
+
+.course-title::after {
+  content: 'by cei29';
+  font-size: 18px;
+  color: var(--color-gray);
+  display: contents;
+}
+
+.course-description {
+  margin-left: 121px;
+    width: 41rem;
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: initial;
+}
+
+.course-img img {
+  position: absolute;
+    top: 19px;
+    right: -32px;
+    width: 644px;
+    z-index: -1;
+}
+
+.course-info {
+  margin-left: -7px;
+}
+
+.bxs-like {
+  margin-left: 150px;
+    margin-top: 5px;
+    font-size: 35px;
+}
+
+.bxs-like::after {
+  content: ' 10 curtidas';
+  font-family: 'Poppins';
+  font-size: 20px;
+}
+
+.schedule h1 { 
+  font-weight: bold;
+  margin-left: 513px;
+  margin-top: 30px;
+}
+
+.bx-chevron-down {
+  position: absolute;
+  bottom: 0px;
+  left: 48%;
+  font-size: 79px;
+}
+
+.low-course {
+  margin-top: 585px;
+  background-color: var(--color-light-gray);
+}
+
+.low-course .card {
+  border: none;
+  box-shadow: none;
+  background-color: var(--color-light-gray);
+}
+
+.lower-course .card .card-body {
+  background-color: var(--color-light-gray);
 }
