@@ -13,6 +13,10 @@ html {
   scroll-behavior: smooth;
 }
 
+i, a, button {
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
 body {
   font-family: 'Poppins';
 }
@@ -350,7 +354,7 @@ margin-top: 87px;
   margin-left: 281px;
 }
 
-/* Feed */
+/* Main */
 .mid-main {
   background-color: var(--color-light-gray);
   width: 1154px;
@@ -441,9 +445,10 @@ margin-top: 87px;
 }
 
 .bxs-like {
-  margin-left: 150px;
-    margin-top: 5px;
-    font-size: 35px;
+  margin-left: 131px;
+    margin-top: -7px;
+    font-size: 25px;
+    margin-bottom: 25px;
 }
 
 .bxs-like::after {
@@ -452,10 +457,11 @@ margin-top: 87px;
   font-size: 20px;
 }
 
-.schedule h1 { 
+.schedule { 
   font-weight: bold;
   margin-left: 513px;
   margin-top: 30px;
+  font-size: 42px;
 }
 
 .bx-chevron-down {
@@ -466,16 +472,139 @@ margin-top: 87px;
 }
 
 .low-course {
-  margin-top: 585px;
-  background-color: var(--color-light-gray);
+  margin-top: 580px;
+  background-color: lightgray;
+  height: 626px;
 }
 
 .low-course .card {
   border: none;
   box-shadow: none;
-  background-color: var(--color-light-gray);
+  width: 638px;
+  border-radius: 0.5rem;
 }
 
-.lower-course .card .card-body {
-  background-color: var(--color-light-gray);
+.low-course .card-text {
+  color: gray;
+  font-weight: bold;
+}
+
+.comment {
+  vertical-align: middle;
+    display: table;
+    margin-left: 86px;
+}
+
+.comment textarea {
+  resize: none;
+  border: none;
+  outline: none;
+  overflow-y: hidden;
+  color: var(--color-gray);
+  font-weight: bold;
+}
+
+.comment .form-box {
+  width: 454px;
+    height: 54px;
+}
+
+.comment label {
+  color: var(--color-darkest-blue);
+  font-weight: bold;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.comment-title {
+  font-weight: bold;
+  color: var(--color-darkest-blue);
+  padding-top: 30px;
+  font-size: 71px;
+}
+
+.commentaries {
+  margin-left: 60px;
+}
+
+.bx-comment-detail {
+  float: right;
+    height: 10px;
+    margin-top: -37px;
+}
+
+.low-course img {
+  position: absolute;
+  width: 589px;
+  right: 11px;
+  top: 736px;
+}
+
+.pagination {
+  width: 0px;
+    height: 0px;
+    margin-left: 144px;
+    font-weight: bold;
+    border: none;
+}
+
+.pagination-sm .page-item:first-child .page-link {
+  background-color: var(--color-darker-blue);
+  color: #fff;
+  border: none;
+}
+
+.page-item:not(:first-child) .page-link {
+  color: var(--color-darker-blue);
+}
+
+.bx-chevron-up {
+  position: absolute;
+  bottom: -80px;
+  left: 93%;
+  font-size: 79px;
+}
+
+/* User */
+.mid-user {
+
+}
+
+.user-info {
+  margin-left: 200px;
+  margin-top: 60px;
+  display: flex;
+}
+
+.user-info h1 {
+  color: var(--color-darkest-blue);
+  font-weight: bold;
+  place-self: center;
+}
+
+.user-info p {
+  color: var(--color-gray);
+    place-self: center;
+    width: 620px;
+}
+
+.about h1 {
+  text-decoration: underline;
+}
+
+.bx-message-square-edit {
+  float: right;
+}
+
+.user-courses {
+  margin-left: 145px;
+}
+
+.user-courses h2 {
+  color: var(--color-darkest-blue);
+  font-weight: bold;
+}
+
+.user-courses .card {
+  
 }
