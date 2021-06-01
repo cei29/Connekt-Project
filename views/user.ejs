@@ -2,39 +2,51 @@
   <%- include('./components/mainheader') %>
 
   <main>
-      <div class="mid-user">
-        <div class="user-info">
-        <img class="rounded-circle" width="200px" src="/images/myloveandi.jpg" alt="">
-        <h1 class="ms-3">cei29</h1>
-        <div class="about ms-5 mt-3">
-        <h1>sobre</h1>
-        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo voluptates sit explicabo amet corporis, alias recusandae deserunt? Sequi voluptates natus voluptatem excepturi recusandae, nostrum praesentium molestias rerum aliquid, officiis ratione.</p>
-        <a href=""><i class='bx bx-message-square-edit me-5'></i></a>
+      <div class="mid-user mx-auto">
+        <div class="user">
+          <figure>
+        <img class="rounded-circle user-pic" width="200px" src="/images/myloveandi.jpg" alt="">
+        <figcaption>cei29</figcaption>
+      </figure>
+      <div class="user-info">
+      <h1 class="ms-5">desenvolvedor full stack</h1>
+      <p class="ms-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum commodi consequuntur nihil magni dolorem quasi, esse ipsam modi deserunt illum voluptas est ullam! Eius magnam nobis, exercitationem dolorem quis molestiae?</p>
+      <a href=""><i class='bx bxs-message-square-edit me-2'></i></a>
+      <div class="me-5 mt-5" data-toggle="tooltip" title="cursos lecionados">
+        <span id="classes-hash" >#</span> <span> 4</span>
       </div>
     </div>
-    <div class="user-courses mt-5">
-      <h2>cursos lecionados</h2>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn">Go somewhere</a>
-            </div>
-          </div>
-        </div>
       </div>
-    </div>
+        </div>
+        <div class="user-courses">
+          <h1 class="text-center me-1">cursos</h1>
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="/course"><h2 class="d-block w-100 text-center">javascript </h2></a>
+                <p class="mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae architecto, officiis, iste voluptatem exercitationem expedita ad repellat maxime fuga magni explicabo illum necessitatibus totam voluptas dicta nemo modi ut omnis.</p>
+                <i class='bx bxs-like' id="carousel-like"></i>
+              </div>
+              <div class="carousel-item">
+                <a href="/course"><h2 class="d-block w-100 text-center">javascript </h2></a>
+                <p class="mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae architecto, officiis, iste voluptatem exercitationem expedita ad repellat maxime fuga magni explicabo illum necessitatibus totam voluptas dicta nemo modi ut omnis.</p>
+                <i class='bx bxs-like' id="carousel-like"></i>
+              </div>
+              <div class="carousel-item">
+                <a href="/course"><h2 class="d-block w-100 text-center">javascript </h2></a>
+                <p class="mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae architecto, officiis, iste voluptatem exercitationem expedita ad repellat maxime fuga magni explicabo illum necessitatibus totam voluptas dicta nemo modi ut omnis.</p>
+                <i class='bx bxs-like' id="carousel-like"></i>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <i class="bx bx-chevron-left" id="carousel-left" aria-hidden="true"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <i class="bx bx-chevron-right" id="carousel-right" aria-hidden="true"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
 
         </main>

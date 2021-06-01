@@ -59,7 +59,7 @@ i {
     color: var(--color-darker-blue);
 }
 
-.bx-chevron-left {
+#bx-chevron-left {
   top: 19rem;
   font-size: 5rem;
   left: 1rem;
@@ -444,7 +444,7 @@ margin-top: 87px;
   margin-left: -7px;
 }
 
-.bxs-like {
+#course-like {
   margin-left: 131px;
     margin-top: -7px;
     font-size: 25px;
@@ -567,44 +567,111 @@ margin-top: 87px;
 
 /* User */
 .mid-user {
-
+  width: 1204px;
+  max-width: 1204px;
 }
 
-.user-info {
-  margin-left: 200px;
+.user {
+  margin-left: 100px;
   margin-top: 60px;
   display: flex;
+}
+
+.user figure {
+  display: inline-block;
+}
+
+.user figure figcaption {
+  color: var(--color-darkest-blue);
+  font-weight: bold;
+  text-align: center;
+  font-size: 47px;
 }
 
 .user-info h1 {
   color: var(--color-darkest-blue);
   font-weight: bold;
-  place-self: center;
+  font-size: 48px;
+  text-decoration: underline;
 }
 
 .user-info p {
   color: var(--color-gray);
-    place-self: center;
-    width: 620px;
+  font-weight: bold;
+  text-align: left;
 }
 
-.about h1 {
-  text-decoration: underline;
-}
-
-.bx-message-square-edit {
-  float: right;
-}
-
-.user-courses {
-  margin-left: 145px;
-}
-
-.user-courses h2 {
+.user-info h3 {
   color: var(--color-darkest-blue);
   font-weight: bold;
 }
 
-.user-courses .card {
-  
+.user-info div {
+  background-color: var(--color-darker-blue);
+  width: 199px;
+  height: 60px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 29px;
+  border-radius: 60px 18px 60px 18px;
+  border-style: solid;
+  border-color: gold;
+  padding: 5px;
+  float: right;
+  border-width: 5px;
+}
+
+.user-info div:hover {
+  cursor: default;
+}
+
+#classes-hash {
+  color: rgb(235, 223, 223);
+}
+
+.bxs-message-square-edit {
+  float: right;
+}
+
+.user-courses h1 {
+  color: var(--color-darker-blue);
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+
+.carousel-item {
+  margin-top: 5px;
+  font-weight: bold;
+  height: 181px;
+}
+
+.carousel-inner p {
+  width: 1000px;
+  color: var(--color-gray);
+  text-align: center;
+}
+
+.carousel {
+  background-color: var(--color-light-gray);
+  width: 1366px;
+  height: 186px;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+}
+
+.carousel h2 {
+  color: var(--color-darkest-blue);
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+#carousel-left, #carousel-right {
+  font-size: 49px;
+}
+
+#carousel-like {
+  position: absolute;
+  bottom: 13px;
+  left: 45%;
 }
