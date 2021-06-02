@@ -3,7 +3,9 @@
 
   <main>
       <div class="mid-user mx-auto">
+        <a href="#lower-user" class="scroll-edit-user">editar perfil</a>
         <div class="user">
+          <a href=""><i class='bx bx-image-add'></i></a>
           <figure>
         <img class="rounded-circle user-pic" width="200px" src="/images/myloveandi.jpg" alt="">
         <figcaption>cei29</figcaption>
@@ -19,7 +21,7 @@
       </div>
         </div>
         <div class="user-courses">
-          <h1 class="text-center me-1">cursos</h1>
+        <a href="/course"><h1 class="text-center me-1">cursos</h1></a>
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -47,6 +49,35 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
+        </div>
+        <div class="lower-user">
+          <img src="/images/edit-user.svg" alt="">
+          <form action="" method="POST" class="edit-user" id="lower-user">
+            <h1>editar perfil <i class='bx bxs-edit-alt ms-4'></i></h1>
+            <div class="form-box">
+              <i class="bx bx-user"></i>
+              <input name="username" type="name" placeholder="cei29"/>
+            </div>
+  
+            <div class="form-box">
+              <i class="bx bx-at"></i>
+              <input type="email" name="email" placeholder="arthur@mail.com"/>
+            </div>
+  
+            <div class="form-box">
+              <i class="bx bx-lock-alt"></i>
+              <input type="password" name="password" placeholder="******"/>
+            </div>
+  
+            <div class="form-box">
+              <i class="bx bx-lock"></i>
+              <input type="password" name="password" placeholder="******"/>
+            </div>
+            <div>
+              <button class="btn btn-delete-user">excluir perfil</button>
+                <button class="btn btn-edit-user" type="submit">salvar</button>
+            </div>
+          </form>
         </div>
 
         </main>
