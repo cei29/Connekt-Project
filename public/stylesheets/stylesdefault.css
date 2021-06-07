@@ -1,0 +1,190 @@
+/* User */
+.mid-user {
+    width: 1204px;
+    max-width: 1204px;
+  }
+  
+  .user {
+    margin-left: 100px;
+    margin-top: 60px;
+    display: flex;
+  }
+  
+  .user figure {
+    display: inline-block;
+  }
+  
+  .user figure figcaption {
+    color: var(--color-darkest-blue);
+    font-weight: bold;
+    text-align: center;
+    font-size: 47px;
+  }
+  
+  .user-info h1 {
+    color: var(--color-darkest-blue);
+    font-weight: bold;
+    font-size: 48px;
+    text-decoration: underline;
+  }
+  
+  .user-info p {
+    color: var(--color-gray);
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .user-info h3 {
+    color: var(--color-darkest-blue);
+    font-weight: bold;
+  }
+  
+  .user-info div {
+    background-color: var(--color-darker-blue);
+    width: 199px;
+    height: 60px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 29px;
+    border-radius: 60px 18px 60px 18px;
+    border-style: solid;
+    border-color: gold;
+    padding: 5px;
+    float: right;
+    border-width: 5px;
+  }
+  
+  .user-info div:hover {
+    cursor: default;
+  }
+  
+  #classes-hash {
+    color: rgb(235, 223, 223);
+  }
+  
+  .bxs-message-square-edit {
+    float: right;
+  }
+  
+  .user-courses h1 {
+    color: var(--color-darker-blue);
+    font-weight: 900;
+    margin-bottom: 0px;
+  }
+  
+  .user-courses h1:hover {
+    text-decoration: underline;
+  }
+  
+  .carousel-item {
+    margin-top: 5px;
+    font-weight: bold;
+    height: 181px;
+  }
+  
+  .carousel-inner p {
+    width: 1000px;
+    color: var(--color-gray);
+    text-align: center;
+  }
+  
+  .carousel {
+    background-color: var(--color-light-gray);
+    height: 186px;
+    border-radius: 28px;
+  }
+  
+  .carousel h2 {
+    color: var(--color-darkest-blue);
+    font-weight: bold;
+    padding-top: 15px;
+  }
+  
+  #carousel-left, #carousel-right {
+    font-size: 49px;
+  }
+  
+  #carousel-like {
+    position: absolute;
+    bottom: 13px;
+    left: 45%;
+  }
+  
+  .lower-user {
+    background-color: rgb(0, 51, 94, 0.9);
+      position: absolute;
+      overflow-y: hidden;
+      overflow-x: hidden;
+      height: 650px;
+      width: 1349px;
+      bottom: -625px;
+      z-index: -1;
+  }
+  
+  .edit-user {
+    padding-top: 100px;
+    padding-left: 700px;
+  }
+  
+  .edit-user .form-box,
+  .edit-user i {
+    background-color: var(--color-gray);
+    color: var(--color-darkest-blue);
+    font-weight: 900;
+  }
+  
+  .edit-user input,
+  .edit-user i {
+    background-color: transparent;
+  }
+  
+  .edit-user input::placeholder {
+    color: var(--color-darkest-blue);
+    font-weight: 900;
+  }
+  
+  .edit-user .form-box:hover,
+  .edit-user input:hover {
+    cursor: default;
+  }
+  
+  .edit-user h1 {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .lower-user img {
+    position: absolute;
+      width: 796px;
+      bottom: -120px;
+      left: -67px;
+  }
+  
+  .btn-edit-user {
+    opacity: 0.7;
+    float: right;
+    margin-right: 126px;
+    margin-top: 38px;
+  }
+  
+  .btn-delete-user {
+    opacity: 0.7;
+    background-color: rgb(255, 68, 68);
+    color: #fff;
+    margin-top: 38px;
+  }
+  
+  .btn-delete-user:hover {
+    background-color: red;
+  }
+  
+  .bx-image-add {
+    margin-top: 96px;
+  }
+  
+  .scroll-edit-user {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+  }

@@ -1,0 +1,83 @@
+<%- include('./components/head') %>
+  <%- include('./components/mainheader') %>
+
+  <main>
+      <div class="mid-user mx-auto">
+        <a href="#lower-user" class="scroll-edit-user">editar perfil</a>
+        <div class="user">
+          <a href=""><i class='bx bx-image-add'></i></a>
+          <figure>
+        <img class="rounded-circle user-pic" width="200px" src="/images/myloveandi.jpg" alt="">
+        <figcaption>cei29</figcaption>
+      </figure>
+      <div class="user-info">
+      <h1 class="ms-5">desenvolvedor full stack</h1>
+      <p class="ms-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum commodi consequuntur nihil magni dolorem quasi, esse ipsam modi deserunt illum voluptas est ullam! Eius magnam nobis, exercitationem dolorem quis molestiae?</p>
+      <a href=""><i class='bx bxs-message-square-edit me-2'></i></a>
+      <div class="me-5 mt-5" data-toggle="tooltip" title="cursos lecionados">
+        <span id="classes-hash" >#</span> <span> 4</span>
+      </div>
+    </div>
+      </div>
+        </div>
+        <div class="user-courses">
+        <a href="/course"><h1 class="text-center me-1">cursos</h1></a>
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="/course"><h2 class="d-block w-100 text-center">javascript </h2></a>
+                <p class="mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae architecto, officiis, iste voluptatem exercitationem expedita ad repellat maxime fuga magni explicabo illum necessitatibus totam voluptas dicta nemo modi ut omnis.</p>
+                <i class='bx bxs-like' id="carousel-like"></i>
+              </div>
+              <div class="carousel-item">
+                <a href="/course"><h2 class="d-block w-100 text-center">javascript </h2></a>
+                <p class="mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae architecto, officiis, iste voluptatem exercitationem expedita ad repellat maxime fuga magni explicabo illum necessitatibus totam voluptas dicta nemo modi ut omnis.</p>
+                <i class='bx bxs-like' id="carousel-like"></i>
+              </div>
+              <div class="carousel-item">
+                <a href="/course"><h2 class="d-block w-100 text-center">javascript </h2></a>
+                <p class="mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae architecto, officiis, iste voluptatem exercitationem expedita ad repellat maxime fuga magni explicabo illum necessitatibus totam voluptas dicta nemo modi ut omnis.</p>
+                <i class='bx bxs-like' id="carousel-like"></i>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <i class="bx bx-chevron-left" id="carousel-left" aria-hidden="true"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <i class="bx bx-chevron-right" id="carousel-right" aria-hidden="true"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="lower-user">
+          <img src="/images/edit-user.svg" alt="">
+          <form action="" method="POST" class="edit-user" id="lower-user">
+            <h1>editar perfil <i class='bx bxs-edit-alt ms-4'></i></h1>
+            <div class="form-box">
+              <i class="bx bx-user"></i>
+              <input name="username" type="name" placeholder="cei29"/>
+            </div>
+  
+            <div class="form-box">
+              <i class="bx bx-at"></i>
+              <input type="email" name="email" placeholder="arthur@mail.com"/>
+            </div>
+  
+            <div class="form-box">
+              <i class="bx bx-lock-alt"></i>
+              <input type="password" name="password" placeholder="******"/>
+            </div>
+  
+            <div class="form-box">
+              <i class="bx bx-lock"></i>
+              <input type="password" name="password" placeholder="******"/>
+            </div>
+            <div>
+              <button class="btn btn-delete-user">excluir perfil</button>
+                <button class="btn btn-edit-user" type="submit">salvar</button>
+            </div>
+          </form>
+        </div>
+
+        </main>
