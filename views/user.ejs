@@ -3,7 +3,7 @@
 
     <main>
       <a class="edit-profile" href="">editar perfil</a>
-      <div class="mid-user mx-auto">
+      <div class="mid-user mx-auto" id="mid-user">
         <div class="user">
           <figure>
             <img class="rounded-circle user-pic" width="170px" height="170px" src="/images/myloveandi.jpg" alt="">
@@ -14,7 +14,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum commodi consequuntur nihil
               magni dolorem quasi, esse ipsam modi deserunt illum voluptas est ullam! Eius magnam nobis, exercitationem
               dolorem quis molestiae?</p>
-              <a href="#lower-user"><h3 class="mt-5">| 4 cursos lecionados</h3></a>
+              <a href=""><h3 class="mt-5">| 4 cursos lecionados </h3></a>
           </div>
           </div>
           <div class="user-contact">
@@ -29,22 +29,6 @@
                 <i class='bx bxl-html5' ></i>
                 <i class='bx bxl-css3' ></i>
               </div>
-              <a href="#lower-user" class="text-center"><h2>cursos</h2></a>
-      </div>
-      <div class="lower-user pt-4" id="lower-user">
-        <div class="mid-main mx-auto">
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            <%- include('./components/card.ejs') %>
-            <%- include('./components/card.ejs') %>
-            <%- include('./components/card.ejs') %>
-            <%- include('./components/card.ejs') %>
-            <%- include('./components/card.ejs') %>
-            <%- include('./components/card.ejs') %>
-          </div>  
-        </div>
-      </div>
-    
-
     </main>
 
     <%- include('./components/footer') %>

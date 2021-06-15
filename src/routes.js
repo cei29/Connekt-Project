@@ -20,4 +20,7 @@ router.get('/course', GetController.course)
 /* GET My Profile */
 router.get('/user', GetController.user)
 
+/* GET Courses */
+router.get('/Courses', GetController.courses)
+
 module.exports = router;

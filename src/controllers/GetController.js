@@ -16,5 +16,8 @@ module.exports = {
     },
     user(req, res) {
         res.render('user')
+    },
+    courses(req, res) {
+        res.render('courses')
     }
 }

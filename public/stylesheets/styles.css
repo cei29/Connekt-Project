@@ -618,7 +618,7 @@ margin-top: 87px;
 
 .user-contact {
   right: 30px;
-  bottom: 20px;
+  bottom: 50px;
   position: absolute;
 }
 
@@ -630,7 +630,7 @@ margin-top: 87px;
 .competences {
   margin-left: 80px;
     margin-top: 18px;
-    margin-bottom: 127px;
+    margin-bottom: 124px;
 }
 
 .competences i {
@@ -646,11 +646,19 @@ margin-top: 87px;
   text-decoration: underline;
 }
 
-.mid-user h2 {
+.user-courses h1 {
   color: var(--color-light-blue);
   font-weight: bold;
 }
 
-.mid-user h2:hover {
+.user-courses h1:hover {
   color: var(--color-darker-blue);
+}
+
+/* Courses */
+.mid-courses {
+  background-color: var(--color-light-gray);
+  width: 1061px;
+  height: 470px;
+  border-radius: 28px;
 }
