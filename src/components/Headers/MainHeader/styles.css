@@ -1,0 +1,17 @@
+#search-box {
+    background-color: #fff;
+    border-radius: 28px;
+    margin-left: 58px;
+    display: flex;
+    padding: 3px 4px;
+}
+
+.bx-search {
+    font-size: 23px;
+}
+
+#credits {
+    padding: 2px 85px;
+    font-size: 19px;
+    margin-left: 51px;
+}

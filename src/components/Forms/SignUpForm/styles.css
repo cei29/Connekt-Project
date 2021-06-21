@@ -1,0 +1,28 @@
+#signUpForm {
+    padding: 35px 97px 0px 0px;
+}
+
+#sign-up-title,
+  .form-box {
+      color: var(--color-darkest-blue);
+      font-family: 'Luckiest Guy';
+      font-size: 47px;
+      margin-left: 799px;
+      line-height: 71px;
+  }
+
+  #below-title {
+      margin-top: 7px;
+  }
+
+  #btn-signup {
+    float: right;
+    border-radius: 17px;
+    padding: 12px 77px;
+  }
+
+#signup-check-div {
+  margin-top: 12px;
+  margin-bottom: 48px;
+  margin-right: 17px;
+}

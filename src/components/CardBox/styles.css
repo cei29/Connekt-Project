@@ -1,0 +1,50 @@
+#card-box h3 {
+    float: right;
+    margin-top: 49px;
+}
+
+#card-box h3:hover {
+    color: var(--color-darker-blue);
+    transform: scale(1.1);
+}
+
+#card-box p:hover {
+    cursor: text;
+}
+
+#card-box p {
+    color: var(--color-gray);
+}
+
+#card-box h1 {
+    margin-bottom: 0px;
+    line-height: 18px;
+}
+
+#card-box h1:hover {
+    color: var(--color-darker-blue);
+}
+
+#card-box img {
+    width: 35px;
+    height: 35px;
+    vertical-align: bottom;
+    border-radius: 28px;
+}
+
+#card-box {
+    display: block;
+    background: var(--color-light-gray);
+    width: 355px;
+    height: 214px;
+    padding: 18px;
+    border-radius: 23px;
+    color: var(--color-light-blue);
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+#card-box:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

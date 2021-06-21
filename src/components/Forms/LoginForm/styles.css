@@ -1,0 +1,61 @@
+#sign-form {
+    float: right;
+    padding: 108px 81px 0px 0px;
+  }
+
+  #sign-form i {
+      font-size: 26px;
+  }
+
+  #login-title,
+  .form-box {
+      color: var(--color-darkest-blue);
+      font-family: 'Luckiest Guy';
+      font-size: 65px;
+      margin-left: 799px;
+      line-height: 71px;
+  }
+
+  .form-box {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 0.5rem;
+    padding: 1.125rem 1rem;
+    background-color: #fff;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    width: 513px;
+  }
+
+  input {
+      color: var(--color-gray);
+      border: none;
+      font-size: 16px;
+      outline: none;
+      padding-left: 20px;
+      font-weight: bold;
+  }
+
+  input::placeholder {
+      font-family: 'Poppins';
+      color: var(--color-gray);
+      font-weight: bold;
+  }
+
+  #btn-login {
+    float: right;
+    border-radius: 17px;
+    padding: 18px 77px;
+  }
+
+  #login-check {
+    float: right;
+    color: var(--color-darkest-blue);
+    font-weight: bold;
+  }
+
+  #login-check-div {
+  margin-top: 12px;
+  margin-bottom: 55px;
+  margin-right: 17px;
+}

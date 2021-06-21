@@ -1,0 +1,22 @@
+.login-box {
+    background-color: var(--color-light-gray);
+    width: 1335px;
+    border-radius: 28px;
+    height: 563px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px 5px lightgrey;
+  }
+  
+   #sign-img{
+      position: absolute;
+        top: -17px;
+        width: 730px;
+        left: -27px;
+    }
+
+#sign {
+    position: absolute;
+    overflow-y: hidden;
+    width: 1341px;
+  }

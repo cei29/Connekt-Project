@@ -1,0 +1,9 @@
+#main-cards {
+    padding: 51px 34px 0px 23px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: double;
+    border-bottom-style: none;
+    border-top-style: none;
+    border-color: var(--color-darker-blue);
+}
