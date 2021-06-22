@@ -15,7 +15,7 @@ export default function MainHeader() {
                  <input id="search" type="text" placeholder="buscar" />
                  <i className='bx bx-search'></i>
              </div>
-             <a href="" className="btn" id="credits">0 créditos</a>
+             <a href="#" className="btn" id="credits">0 créditos</a>
              <Notifications />
              <User />     
         </nav>

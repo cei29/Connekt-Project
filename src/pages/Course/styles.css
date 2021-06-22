@@ -1,0 +1,19 @@
+#go-to-comments a { 
+    color: var(--color-light-blue);
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
+    font-size: 41px;
+    padding: 0px 0px 29px 193px;
+    opacity: 0.7;
+}
+
+#go-to-comments a:hover {
+    opacity: 1;
+}
+
+#go-to-comments i {
+    font-size: 41px;
+    font-weight: bold;
+    vertical-align: middle;
+}

@@ -1,0 +1,48 @@
+#mid-course img {
+    width: 636px;
+    position: absolute;
+    right: 17px;
+    top: 96px;
+}
+
+#mid-course h1 {
+    color: var(--color-light-blue);
+    padding: 64px 0px 0px 47px;
+    font-size: 79px;
+    margin-bottom: 0px;
+}
+
+#mid-course h1::after {
+    content: 'by username';
+    font-size: 19px;
+    color: var(--color-gray);
+    margin-left: 12px;
+}
+
+#mid-course h1:hover {
+    cursor: default;
+}
+
+#mid-course p {
+    color: var(--color-gray);
+    padding-left: 47px;
+    font-weight: bold;
+    width: 696px;
+    font-size: 19px;
+}
+
+#mid-course p:hover {
+    cursor: default;
+}
+
+.bxs-like {
+    padding: 4px 0px 0px 512px;
+    font-size: 34px;
+}
+
+.bxs-like::after {
+    content: '4 curtidas';
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: bold;
+}

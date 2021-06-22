@@ -5,7 +5,7 @@
 
 #post-course h1:hover {
     color: var(--color-darker-blue);
-    cursor: pointer;
+    cursor: default;
 }
 
 #post-course a {

@@ -10,7 +10,7 @@ export default function Main () {
         <MainHeader />
         <form action="" method="post" id="post-course">
         <h1>feed</h1>
-            <a href="">publicar novo curso</a>
+            <a href="#">publicar novo curso</a>
         </form>
         <MainCards />
         <Footer />

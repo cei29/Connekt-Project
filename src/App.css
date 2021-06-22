@@ -26,5 +26,5 @@ i:hover {
 }
 
 i, a, button, h1, h2, h3, div {
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out, opacity .15s ease-in-out, transform .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out, opacity .15s ease-in-out, transform .15s ease-in-out, border-style .15s ease-in-out;
 }

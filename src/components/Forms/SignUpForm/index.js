@@ -25,7 +25,7 @@ export default function SignUpForm () {
    <span id="login-check"><input type="checkbox" /> concorda em compartilhar seus dados? </span>
    </div>
    <div>
-    <a className="btn" id="btn-signup" type="submit">cadastrar</a>
+    <a href="#" className="btn" id="btn-signup" type="submit">cadastrar</a>
     </div>   
     </form>
     );
