@@ -1,20 +1,21 @@
-import MainHeader from '../../components/Headers/MainHeader'
-import MidCourse from '../../components/Course/MidCourse'
-import Footer from '../../components/Footer'
+import MainHeader from "../../components/Headers/MainHeader";
+import MidCourse from "../../components/Course/MidCourse";
+import Comments from "../../components/Course/Comments";
+import Footer from "../../components/Footer";
 
-import './styles.css'
+import "./styles.css";
 
 export default function Course() {
-    return(
-        <>
-        <MainHeader />
-        <MidCourse />
-        <div id="go-to-comments">
+  return (
+    <>
+      <MainHeader />
+      <MidCourse />
+      <div id="go-to-comments">
         <a href="#comments">
-            seção de comentários
-            <i className="bx bx-chevron-down"></i>
+          <i className="bx bx-chevron-down"></i>
         </a>
-        </div>
-        </>
-    );
+      </div>
+      <Comments />
+    </>
+  );
 }
