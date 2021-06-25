@@ -1,0 +1,34 @@
+#bottom-course {
+  background-color: lightgray;
+  position: absolute;
+  width: 1349px;
+  height: 625px;
+  left: 0px;
+  top: 637px;
+}
+
+#bottom-course img {
+  position: absolute;
+  width: 589px;
+  right: 11px;
+  top: 110px;
+}
+
+#bottom-course h1 {
+  font-weight: bold;
+  color: var(--color-darkest-blue);
+  font-size: 71px;
+  text-align: center;
+  margin-top: 18px;
+}
+
+#bottom-course h1:hover {
+  cursor: default;
+}
+
+.bx-chevron-up {
+  position: absolute;
+    font-size: 90px;
+    inset: 7px 0px 0px 97px;
+    width: 0px;
+}

@@ -59,3 +59,13 @@
 #mid-course a:hover {
   opacity: 1;
 }
+
+#go-to-bottom-course {
+  text-align: center;
+  margin-top: 54px;
+}
+
+#go-to-bottom-course a {
+  color: var(--color-darker-blue);
+  font-size: 84px;
+}

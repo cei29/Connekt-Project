@@ -6,8 +6,8 @@ import "./styles.css";
 export default function MainHeader() {
   return (
     <header>
-      <nav>
-        <a href="/" className="go-home">
+      <nav id="up">
+        <a href="/main" className="go-home">
           <i className="bx bx-home-alt"></i>
           <img
             src="/images/logos/logo-header.png"

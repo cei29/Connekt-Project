@@ -1,0 +1,23 @@
+#bottom-course form {
+  background-color: #fff;
+  padding: 11px 0px 11px 26px;
+  width: 377px;
+  border-radius: 20px;
+  margin: 0px 58px;
+}
+
+#bottom-course label {
+  color: var(--color-darkest-blue);
+  font-weight: bold;
+}
+
+#bottom-course input {
+  outline: none;
+  border: none;
+  padding-left: 7px;
+  font-size: 14px;
+  width: 256px;
+  font-family: "Poppins";
+  color: var(--color-gray);
+  font-weight: bold;
+}

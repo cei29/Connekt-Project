@@ -1,0 +1,18 @@
+#commentary {
+  max-width: 640px;
+  max-height: 120px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 17px 17px 7px 17px;
+  margin: 35px 0px 0px 55px;
+  color: var(--color-darkest-blue);
+  font-weight: bold;
+}
+
+#commentary label {
+  margin-bottom: 40px;
+}
+
+#commentary p {
+  margin-top: 8px;
+}

@@ -6,6 +6,7 @@ import SignUp from "./pages/SignUp";
 import Login from "./pages/Login";
 import Main from "./pages/Main";
 import Course from "./pages/Course";
+import User from "./pages/User";
 
 export default function Routes() {
   return (
@@ -16,6 +17,7 @@ export default function Routes() {
         <Route path="/login" component={Login} />
         <Route path="/main" component={Main} />
         <Route path="/course" component={Course} />
+        <Route path="/user" component={User} />
       </Switch>
     </BrowserRouter>
   );
